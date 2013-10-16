@@ -1,0 +1,29 @@
+Redmine Wiki Syntax For Vim
+===========================
+
+A Vim syntax-highlighting file for [Redmine](http://www.redmine.org/) wiki.
+
+Installation
+============
+
+If you use [pathogen](https://github.com/tpope/vim-pathogen), then simply go into the `bundle` directory and clone the repository in there:
+```
+cd ~/.vim/bundle
+git clone git://github.com/s3rvac/vim-syntax-redminewiki.git
+```
+If you do not want to use pathogen, you can always install the syntax file in the normal way by copying the `syntax/redminewiki.vim` file to your `~/.vim/syntax` directory (if the directory does not exist, create it).
+
+Usage
+=====
+
+When you edit a Redmine wiki page in Vim, use `:set ft=redminewiki` to choose the Redmine wiki highlighting (make sure that you have enabled syntax highlighting). Alternative, you can put something like this into your `.vimrc`:
+```
+" Consider all .redmine files as Redmine wiki files.
+au BufNewFile,BufRead *.redmine set ft=redminewiki
+```
+where `redmine` is the suffix of your Redmine wiki files.
+
+Credits
+=======
+
+This syntax file is heavily based on the [textile.vim](http://rubychan.de/share/textile.vim) syntax file by Kornelius Kalnbach <korny@cYcnus.de>, 2006.
