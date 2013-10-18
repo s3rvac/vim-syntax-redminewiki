@@ -2,7 +2,7 @@
 "
 " Language:     Redmine wiki
 " Maintainer:   Petr Zemek <s3rvac@gmail.com>
-" Last Change:  2013-10-16 16:53:29 +0200
+" Last Change:  2013-10-18 15:51:05 +0200
 " Version:      0.1
 "
 " Heavily based on the textile.vim syntax file by Kornelius Kalnbach
@@ -117,6 +117,7 @@ syn region redmineWikiLinkTitle matchgroup=redmineFormatTag contained start=/[|:
 " TODO This may need to be fine-tuned
 syn match redmineResourceLink /\<\([[:alnum:]]\+:\)\?\(document\|version\|attachment\|news\|project\|message\|forum\|source\|export\|commit\)\(:"[^"]\+"\|:[[:alnum:]/@#|_.-]\+\|#[1-9][0-9]*\)/
 syn match redmineResourceLink /\<\([[:alnum:]]\+[:|]\)\?r[1-9][0-9]*/ contains=@NoSpell
+syn match redmineResourceLink /#[1-9][0-9]*/
 
 " =============================================================================
 " Highlighting
