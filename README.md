@@ -16,7 +16,7 @@ If you do not want to use pathogen, you can always install the syntax file in th
 Usage
 =====
 
-When you edit a Redmine wiki page in Vim, use `:set ft=redminewiki` to choose the Redmine wiki highlighting (make sure that you have enabled syntax highlighting). Alternative, you can put something like this into your `.vimrc`:
+When you edit a Redmine wiki page in Vim, use `:set ft=redminewiki` to choose the Redmine wiki highlighting (make sure that you have enabled syntax highlighting). Alternatively, you can put something like this into your `.vimrc`:
 ```
 " Consider all .redmine files as Redmine wiki files.
 au BufNewFile,BufRead *.redmine set ft=redminewiki
