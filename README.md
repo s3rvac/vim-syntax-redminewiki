@@ -12,9 +12,9 @@ into the `bundle` directory and clone the repository in there:
 cd ~/.vim/bundle
 git clone git://github.com/s3rvac/vim-syntax-redminewiki.git
 ```
-If you do not want to use pathogen, you can always install the syntax file in
-the normal way by copying the `syntax/redminewiki.vim` file to your
-`~/.vim/syntax` directory (if the directory does not exist, create it).
+If you do not want to use pathogen, you can install the syntax file by copying
+the `syntax/redminewiki.vim` file to your `~/.vim/syntax` directory (if the
+directory does not exist, create it).
 
 Usage
 =====
