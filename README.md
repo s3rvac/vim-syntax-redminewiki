@@ -6,8 +6,8 @@ A Vim syntax-highlighting file for [Redmine](http://www.redmine.org/) wiki.
 Installation
 ============
 
-If you use [pathogen](https://github.com/tpope/vim-pathogen), then simply go
-into the `bundle` directory and clone the repository in there:
+If you use [pathogen](https://github.com/tpope/vim-pathogen), simply go into
+the `bundle` directory and clone the repository in there:
 ```
 cd ~/.vim/bundle
 git clone git://github.com/s3rvac/vim-syntax-redminewiki.git
