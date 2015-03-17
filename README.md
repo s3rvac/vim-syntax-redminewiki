@@ -1,7 +1,7 @@
 Redmine Wiki Syntax For Vim
 ===========================
 
-A Vim syntax-highlighting file for [Redmine](http://www.redmine.org/) wiki.
+A Vim syntax-highlighting file for the [Redmine](http://www.redmine.org/) wiki.
 
 Installation
 ============
@@ -12,14 +12,14 @@ the `bundle` directory and clone the repository in there:
 cd ~/.vim/bundle
 git clone git://github.com/s3rvac/vim-syntax-redminewiki.git
 ```
-If you do not want to use pathogen, you can install the syntax file by copying
-the `syntax/redminewiki.vim` file to your `~/.vim/syntax` directory (if the
-directory does not exist, create it).
+If you do not want to use pathogen, you can install the syntax file manually by
+copying the `syntax/redminewiki.vim` file to your `~/.vim/syntax` directory (if
+that directory does not exist, create it).
 
 Usage
 =====
 
-When you edit a Redmine wiki page in Vim, use `:set ft=redminewiki` to choose
+When you edit a Redmine wiki page in Vim, use `:set ft=redminewiki` to select
 the Redmine wiki highlighting (make sure that you have enabled syntax
 highlighting). Alternatively, you can put something like this into your
 `.vimrc`:
