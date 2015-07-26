@@ -29,6 +29,21 @@ au BufNewFile,BufRead *.redmine set ft=redminewiki
 ```
 where `redmine` is the suffix of your Redmine wiki files.
 
+If you use the [It's All Text](https://github.com/docwhat/itsalltext) Firefox
+plugin to edit textareas in Vim, you can add something along these lines to
+your `.vimrc`:
+```
+let s:opened_file_path = expand('%:p')
+if s:opened_file_path =~ '\.mozilla/firefox/.*redmine'
+    au BufRead,BufNewFile *.txt set ft=redminewiki
+endif
+```
+Then, when you launch Vim to edit a Redmine page (e.g. wiki or issue), a proper
+file type will be selected automatically. Of course, this can be set up also
+for other browser plugins, such as
+[Vimperator](http://www.vimperator.org/vimperator). You just need to adjust the
+regular expression matching `s:opened_file_path`.
+
 Credits
 =======
 
