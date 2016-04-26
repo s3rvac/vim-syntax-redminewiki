@@ -115,7 +115,6 @@ syn region redmineWikiLinkURL matchgroup=redmineFormatTag contained contains=red
 syn region redmineWikiLinkTitle matchgroup=redmineFormatTag contained start=/[|:]/ end=/\]/
 
 " Links to other resources
-" TODO This may need to be fine-tuned
 syn match redmineResourceLink /\<\([[:alnum:]]\+:\)\?\(document\|version\|attachment\|news\|project\|message\|forum\|source\|export\|commit\)\(:"[^"]\+"\|:[[:alnum:]/@#|_.-]\+\|#[1-9][0-9]*\)/
 syn match redmineResourceLink /\<\([[:alnum:]]\+[:|]\)\?r[1-9][0-9]*/ contains=@NoSpell
 syn match redmineResourceLink /#[1-9][0-9]*/
