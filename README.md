@@ -10,18 +10,18 @@ If you use [pathogen](https://github.com/tpope/vim-pathogen), simply go into
 the `bundle` directory and clone the repository in there:
 ```
 cd ~/.vim/bundle
-git clone git://github.com/s3rvac/vim-syntax-redminewiki.git
+git clone https://github.com/s3rvac/vim-syntax-redminewiki.git
 ```
-If you do not want to use pathogen, you can install the syntax file manually by
-copying the `syntax/redminewiki.vim` file to your `~/.vim/syntax` directory (if
-that directory does not exist, create it).
+You can also install the plugin manually by copying the
+`syntax/redminewiki.vim` file to your `~/.vim/syntax` directory. If that
+directory does not exist, create it.
 
 Usage
 =====
 
-When you edit a Redmine wiki page in Vim, use `:set ft=redminewiki` to select
-the Redmine wiki highlighting (make sure that you have enabled syntax
-highlighting). Alternatively, you can put something like this into your
+When you edit a Redmine wiki page in Vim, execute `:set ft=redminewiki` to
+select the Redmine wiki highlighting (make sure that you have enabled syntax
+highlighting). Alternatively, you can put the following autocommand to your
 `.vimrc`:
 ```
 " Consider all .redmine files as Redmine wiki files.
