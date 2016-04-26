@@ -13,8 +13,9 @@ cd ~/.vim/bundle
 git clone https://github.com/s3rvac/vim-syntax-redminewiki.git
 ```
 You can also install the plugin manually by copying the
-`syntax/redminewiki.vim` file to your `~/.vim/syntax` directory. If that
-directory does not exist, create it.
+[`syntax/redminewiki.vim`](https://raw.githubusercontent.com/s3rvac/vim-syntax-redminewiki/master/syntax/redminewiki.vim)
+file to your `~/.vim/syntax` directory. If that directory does not exist,
+create it.
 
 Usage
 =====
