@@ -3,7 +3,7 @@
 " Language:     Redmine wiki
 " Maintainer:   Petr Zemek <s3rvac@gmail.com>
 " Home Page:    https://github.com/s3rvac/vim-syntax-redminewiki
-" Last Change:  2013-10-18 15:51:05 +0200
+" Last Change:  2016-04-26 18:55:09 +0200
 " Version:      0.1
 "
 " Heavily based on the textile.vim syntax file by Kornelius Kalnbach
@@ -196,4 +196,4 @@ hi def redmineLink term=underline cterm=underline gui=underline
 " =============================================================================
 
 " Make sure that the file is loaded at most once
-let b:current_syntax = "redmine"
+let b:current_syntax = "redminewiki"
