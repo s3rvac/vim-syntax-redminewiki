@@ -2,6 +2,7 @@
 "
 " Language:     Redmine wiki
 " Maintainer:   Petr Zemek <s3rvac@gmail.com>
+" Home Page:    https://github.com/s3rvac/vim-syntax-redminewiki
 " Last Change:  2013-10-18 15:51:05 +0200
 " Version:      0.1
 "
