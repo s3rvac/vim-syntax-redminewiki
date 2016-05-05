@@ -26,7 +26,7 @@ highlighting). Alternatively, you can put the following autocommand to your
 `.vimrc`:
 ```
 " Consider all .redmine files as Redmine wiki files.
-au BufNewFile,BufRead *.redmine set ft=redminewiki
+au BufNewFile,BufRead *.redmine set filetype=redminewiki
 ```
 where `redmine` is the suffix of your Redmine wiki files.
 
@@ -36,7 +36,7 @@ your `.vimrc`:
 ```
 let s:opened_file_path = expand('%:p')
 if s:opened_file_path =~ '\.mozilla/firefox/.*redmine'
-    au BufRead,BufNewFile *.txt set ft=redminewiki
+    au BufRead,BufNewFile *.txt set filetype=redminewiki
 endif
 ```
 Then, when you launch Vim to edit a Redmine page (e.g. wiki or issue), a proper
