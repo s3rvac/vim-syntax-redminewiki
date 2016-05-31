@@ -1,7 +1,7 @@
 Redmine Wiki Syntax For Vim
 ===========================
 
-A Vim syntax-highlighting file for the [Redmine](http://www.redmine.org/) wiki.
+A Vim syntax-highlighting file for the [Redmine](https://redmine.org/) wiki.
 
 Installation
 ============
