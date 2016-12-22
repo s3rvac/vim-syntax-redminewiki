@@ -3,8 +3,8 @@
 " Language:     Redmine wiki
 " Maintainer:   Petr Zemek <s3rvac@gmail.com>
 " Home Page:    https://github.com/s3rvac/vim-syntax-redminewiki
-" Last Change:  2016-04-26 18:55:09 +0200
-" Version:      0.1
+" Last Change:  2016-12-22 13:59:04 +0100
+" Version:      0.1.1
 "
 " Heavily based on the textile.vim syntax file by Kornelius Kalnbach
 " <korny@cYcnus.de>, Mar 2006.
@@ -48,7 +48,7 @@ syn match redmineGlyph /\(\s\@<=\([-x]\)\s\@=\|\.\.\.\|(\(TM\|R\|C\))\)/
 
 syn region redmineAcronym matchgroup=redmineAcronymTag start=/\<\u\{3,}(/ end=/)/
 
-syn cluster RedmineFormatTags contains=redmineLink,redmineImage,redmineAncronym,redmineEm,redmineStrong,redmineItalic,redmineBold,redmineCode,redmineSubtext,redmineSupertext,redmineCitation,redmineDeleted,redmineInserted,redmineSpan,redmineNoTextile,redmineGlyph,redmineAcronym,redmineHtml
+syn cluster RedmineFormatTags contains=redmineLink,redmineWikiLink,redmineResourceLink,redmineImage,redmineAncronym,redmineEm,redmineStrong,redmineItalic,redmineBold,redmineCode,redmineSubtext,redmineSupertext,redmineCitation,redmineDeleted,redmineInserted,redmineSpan,redmineNoTextile,redmineGlyph,redmineAcronym,redmineHtml
 
 syn region redmineSpan oneline matchgroup=redmineFormatTagSpan contains=redmineSpanKeyword start=/\w\@<!%\s\@!/ end=/\s\@<!%\w\@!/
 
