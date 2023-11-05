@@ -1,7 +1,7 @@
 " Vim syntax file for Redmine wiki
 "
 " Language:     Redmine wiki
-" Maintainer:   Petr Zemek <s3rvac@gmail.com>
+" Maintainer:   Petr Zemek <s3rvac@petrzemek.net>
 " Home Page:    https://github.com/s3rvac/vim-syntax-redminewiki
 " Last Change:  2017-10-21 16:09:24 +0200
 " Version:      0.1.2
